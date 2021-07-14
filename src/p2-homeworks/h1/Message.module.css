@@ -1,3 +1,42 @@
-.message {
-
+.wrapper {
+    background-color: yellow;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
+.messageInfo{
+    background-color: white;
+    width: 250px;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.avatar{
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    padding: 10px;
+}
+
+.name{
+    height: 100%;
+    align-items: flex-start;
+    font-weight: lighter;
+}
+
+.message{
+    display: flex;
+    width: 230px;
+}
+
+.time{
+    display: flex;
+    height: 100%;
+    align-items: flex-end;
+}
+
